@@ -1,5 +1,16 @@
 body {
     background-color: antiquewhite;
+    font-family: "Brush Script", sans-serif;
+    text-align: center;
+}
+
+div {
+    background-color: bisque;
+    padding: 5px 25px 5px 25px;
+}
+
+h1 {
+    background-color: bisque;
 }
 
 img {
@@ -8,6 +19,24 @@ img {
     border-radius: 10px;
 }
 
-ul {
+ul,
+ol {
     text-align: left;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+button {
+    background-color: white;
 }
