@@ -1,0 +1,14 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: left;
+}
