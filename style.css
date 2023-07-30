@@ -1,22 +1,40 @@
+* {
+    line-height: 1.5;
+}
+
 body {
     background-color: antiquewhite;
     font-family: "Brush Script", sans-serif;
     text-align: center;
 }
 
-div {
+.card {
     background-color: bisque;
-    padding: 5px 25px 5px 25px;
+    margin: 30px 200px;
+    padding: 40px 10px;
+    border-radius: 20px;
+}
+
+.description {
+    font-style: italic;
+}
+.links img {
+    width: 100px;
+    height: 100px;
+
 }
 
 h1 {
     background-color: bisque;
+    width: fit-content;
+    margin: auto;
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: auto;
     border-radius: 10px;
+    margin: 15px 15px 0 15px;
 }
 
 ul,
@@ -33,10 +51,12 @@ a:active {
 }
 
 a:hover {
-    color: blue;
+    color: white;
 }
 
-
-button {
+p.quote {
     background-color: white;
+    border-radius: 0 50px 50px 50px;
+    width: max-content;
+    margin: 20px auto;
 }
