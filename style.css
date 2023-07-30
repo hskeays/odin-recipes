@@ -1,5 +1,8 @@
 * {
     line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -10,34 +13,56 @@ body {
 
 .card {
     background-color: bisque;
-    margin: 30px 200px;
-    padding: 40px 10px;
+    width: 1000px;
+    padding: 40px 40px;
+    border: solid 2px rgb(179, 133, 73);
     border-radius: 20px;
+    margin: 30px auto;
 }
 
 .description {
     font-style: italic;
+    background-color: blanchedalmond;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: solid 2px rgb(179, 133, 73);
+    margin: 20px;
 }
 
 .links img {
-    width: 100px;
-    height: 100px;
-
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
 h1 {
     background-color: bisque;
     width: fit-content;
-    margin: auto;
     padding: 0 10px;
+    border: solid 2px rgb(179, 133, 73);
     border-radius: 20px;
+    margin: 20px auto;
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: left;
+}
+
+h4 {
+    background-color: blanchedalmond;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: solid 2px rgb(179, 133, 73);
+    margin: 20px auto;
 }
 
 img {
     width: 400px;
     height: auto;
+    border: solid 2px rgb(179, 133, 73);
     border-radius: 10px;
-    margin: 15px 15px 0 15px;
 }
 
 ul,
@@ -48,18 +73,17 @@ ol {
 a,
 a:link,
 a:visited,
-a:active {
+a:active,
+a:hover {
     text-decoration: none;
     color: black;
-}
-
-a:hover {
-    color: white;
 }
 
 p.quote {
     background-color: white;
     border-radius: 0 50px 50px 50px;
     width: max-content;
+    padding: 5px;
+    border: solid 1px black;
     margin: 20px auto;
 }
