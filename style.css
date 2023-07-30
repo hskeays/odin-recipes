@@ -18,6 +18,7 @@ body {
 .description {
     font-style: italic;
 }
+
 .links img {
     width: 100px;
     height: 100px;
@@ -28,6 +29,8 @@ h1 {
     background-color: bisque;
     width: fit-content;
     margin: auto;
+    padding: 0 10px;
+    border-radius: 20px;
 }
 
 img {
